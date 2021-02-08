@@ -3,6 +3,6 @@ module.exports = {
     description: 'Calango',
     execute(message, args) {
         const c = message.client.users.cache.get('247810715149271050');
-        message.channel.send(`${c} O termo calango se refere a alguns lagartos, como os da família dos teídeos ou da família Tropiduridae, principalmente os de pequeno porte, Cnemidophorus, Tropidurus e outros que vivem geralmente no solo ou em pedreiras, alimentando-se de alguns artrópodes.`);
+        message.channel.send(`${c} Calango é o nome genérico que se dá a vários tipos de lagartos de pequeno porte. Normalmente, é um tipo de réptil que não passa dos 30 centímetros de comprimento.`);
     },
 };
