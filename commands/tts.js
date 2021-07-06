@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'kombi',
-    description: 'Invoca esse garai',
+    name: 'tts',
+    description: 'Gambiarra do TTS',
     execute(message, args) {
         message.channel.send(`/tts ${args[0]}`);
     },
