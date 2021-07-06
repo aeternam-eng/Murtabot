@@ -2,6 +2,8 @@ module.exports = {
     name: 'tts',
     description: 'Gambiarra do TTS',
     execute(message, args) {
-        message.channel.send(`/tts ${args[0]}`);
+        message.channel.send(`Murtabot diz: ${args[0]}`, {
+            tts: true,
+        });
     },
 };
